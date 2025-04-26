@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Hair By Kristy</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/transparent logo.png" alt="Hair By Kristy Logo">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html#about">About</a>
+                <a href="gallery.html" class="active">Gallery</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-page">
+            <div class="container">
+                <h1>Our Gallery</h1>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="before-after-pair">
+                            <img src="images/before 1.jpg" alt="Before haircut" class="gallery-image">
+                            <img src="images/after 1.jpg" alt="After haircut" class="gallery-image">
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/wedding haricut 1.jpg" alt="Wedding hairstyle 1" class="gallery-image">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/wedding haircut 2.jpg" alt="Wedding hairstyle 2" class="gallery-image">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/wedding haircut 3.jpg" alt="Wedding hairstyle 3" class="gallery-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hair By Kristy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="caption" id="caption"></div>
+    </div>
+
+    <script src="js/gallery.js"></script>
+</body>
+</html> 
